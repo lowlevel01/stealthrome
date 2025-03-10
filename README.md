@@ -1,7 +1,8 @@
 # stealthrome
 POC of a Chrome Browser Password Stealer
 
-The script outputs the passwords like this
+The script decrypts and sends the passwords to a webhook:
+
 ![image](./webhook.png)
 
 In practice, you could exfiltrate the master key and the database file and do the decryption locally in your machine.
